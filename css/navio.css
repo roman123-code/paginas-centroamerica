@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100vw;
+    min-height: 100vh;
+    position: relative; 
+    overflow: hidden;
+    color: rgba(208, 228, 34, 0.925);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../imagenes/bandeini.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-size: 200%;
+}
+
+
+.main{
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgb(31, 230, 213);
+}
+
+.box{
+    max-width: 325px;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0% 3%;
+    border-bottom: rgb(204, 238, 12) solid 2px;
+}
+
+img{
+    width: 90%;
+    height: 300px;
+}
+
+span{
+    color: rgb(230, 31, 31);
+}
+
+.his{
+    min-height: 100vh;
+    width: 95vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.foti{
+    display: flex;
+    justify-content: center;
+}
+
+.plus{ 
+    margin: 3% 0% ;
+    max-width: 450px;
+    max-height: 250px;
+}
+
+.mov{ 
+    margin: 3% 0%;
+    max-width: 500px;
+    max-height: 250px;
+}
+
+.boxi{
+    max-width: 60%;
+    background-color: rgb(69, 147, 236);
+    margin: 3% 0%;
+    text-align: center;
+}
+
+.hay{
+    max-width: 80%;
+    background-color: rgb(69, 147, 236);
+    margin: 3% 0%;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    padding: 3%;
+}
+
+ul{
+    list-style: none;
+}
